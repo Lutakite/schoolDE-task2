@@ -71,7 +71,7 @@ object GalaxyTry {
     var i = 0
     var plainResult:DataFrame = null
     for (method <- methods) {
-      responses(i) = GetUrlContentJson("https://focus-api.kontur.ru/api3/"+method+"?key=3208d29d15c507395db770d0e65f3711e40374df&inn=6663003127")
+      responses(i) = GetUrlContentJson("https://focus-api.kontur.ru/api3/"+method+"?key=хххх&inn=6663003127")
       if (i==0) {
         plainResult = responses(i)._2
       }
@@ -83,8 +83,8 @@ object GalaxyTry {
     /*for (response <- responses) {
       response.show()
     }
-    var response1 = GetUrlContentJson("https://focus-api.kontur.ru/api3/"+"contacts"+"?key=3208d29d15c507395db770d0e65f3711e40374df&inn=6663003127")
-    var response2 = GetUrlContentJson("https://focus-api.kontur.ru/api3/"+"buh"+"?key=3208d29d15c507395db770d0e65f3711e40374df&inn=6663003127")
+    var response1 = GetUrlContentJson("https://focus-api.kontur.ru/api3/"+"contacts"+"?key=хххх&inn=6663003127")
+    var response2 = GetUrlContentJson("https://focus-api.kontur.ru/api3/"+"buh"+"?key=хххх&inn=6663003127")
     response1._1.show()
     response1._2.show()
     response2._1.show()
