@@ -1,0 +1,18 @@
+[debug] > Exec({file:/C:/Users/lutak/IdeaProjects/school-de-2/}school-de-2/assembly, None, None)
+[warn] build source files have changed
+[warn] modified files: 
+[warn]   C:\Users\lutak\IdeaProjects\school-de-2\build.sbt
+[warn] Apply these changes by running `reload`.
+[warn] Automatically reload the build when source changes are detected by setting `Global / onChangedBuildSource := ReloadOnSourceChanges`.
+[warn] Disable this warning by setting `Global / onChangedBuildSource := IgnoreSourceChanges`.
+[debug] Evaluating tasks: assembly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Credentials file C:\Users\lutak\.sbt\.credentials does not exist
+[warn] Credentials file C:\Users\lutak\.sbt\.credentials does not exist
+[warn] Credentials file C:\Users\lutak\.sbt\.credentials does not exist
+[info] Strategy 'discard' was applied to 8 files (Run the task at debug level to see details)
+[info] Assembly up to date: C:\Users\lutak\IdeaProjects\school-de-2\target\scala-2.11\demo_scala_project-assembly-0.1.jar
+[success] Total time: 2 s, completed 06.04.2022 23:54:18
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

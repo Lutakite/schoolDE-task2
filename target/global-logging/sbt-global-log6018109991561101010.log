@@ -1,0 +1,19 @@
+[debug] > Exec({file:/C:/Users/lutak/IdeaProjects/school-de-2/}school-de-2/assembly, None, None)
+[debug] Evaluating tasks: assembly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Credentials file C:\Users\lutak\.sbt\.credentials does not exist
+[warn] Credentials file C:\Users\lutak\.sbt\.credentials does not exist
+[warn] Credentials file C:\Users\lutak\.sbt\.credentials does not exist
+[info] compiling 1 Scala source to C:\Users\lutak\IdeaProjects\school-de-2\target\scala-2.11\classes ...
+[warn] there were two deprecation warnings; re-run with -deprecation for details
+[warn] there were 9 feature warnings; re-run with -feature for details
+[warn] two warnings found
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[info] Strategy 'discard' was applied to 8 files (Run the task at debug level to see details)
+[warn] Ignored unknown package option FixedTimestamp(Some(1262304000000))
+[debug] Forcing garbage collection...
+[success] Total time: 8 s, completed 17.05.2022 0:51:40
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

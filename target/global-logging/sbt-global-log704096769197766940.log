@@ -1,0 +1,18 @@
+[debug] > Exec({file:/C:/Users/lutak/IdeaProjects/school-de-2/}school-de-2/assembly, None, None)
+[debug] Evaluating tasks: assembly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Credentials file C:\Users\lutak\.sbt\.credentials does not exist
+[warn] Credentials file C:\Users\lutak\.sbt\.credentials does not exist
+[warn] Credentials file C:\Users\lutak\.sbt\.credentials does not exist
+[info] compiling 1 Scala source to C:\Users\lutak\IdeaProjects\school-de-2\target\scala-2.11\classes ...
+[error] C:\Users\lutak\IdeaProjects\school-de-2\src\main\scala\Main.scala:314:27: type mismatch;
+[error]  found   : org.apache.spark.sql.RelationalGroupedDataset
+[error]  required: org.apache.spark.sql.Dataset[org.apache.spark.sql.Row]
+[error]     result = result.union(sqlDF15)
+[error]                           ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed 08.04.2022 23:47:17
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
